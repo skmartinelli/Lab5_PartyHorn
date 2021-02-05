@@ -16,7 +16,7 @@ jobs:
     steps:
       - name: add cat comment
         uses: Marta83/funny-comment-action@v2.1
-        id: FunnyCat
+        id: FunnyComment
         with:
           GIPHY_TOKEN: ${{ secrets.GIPHY_TOKEN }}
           comment_type: 'cats'
