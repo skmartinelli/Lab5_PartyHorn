@@ -15,6 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: add cat comment
+        uses: Marta83/funny-comment-action@v2.1
         id: FunnyCat
         with:
           GIPHY_TOKEN: ${{ secrets.GIPHY_TOKEN }}
